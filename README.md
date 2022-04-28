@@ -1,9 +1,15 @@
 # Masterthesis "Microfrontend-Architekturen in Portalapplikationen: Evaluierung und prototypische Implementierung"
 
-Die Masterthesis wurde im Rahmen des berufsbegleitenden Studiums "IT-Management and Information Systems" an der FHDW Paderborn verfasst.
+Studiengang "IT-Management and Information Systems"
 
-Das Repo enthält den LaTeX-Code der Thesis.
+Titel: "Microfrontend-Architekturen in Portalapplikationen: Evaluierung und prototypische Implementierung"
+
+Hochschule: Fachhochschule der Wirtschaft (FHDW)
 
 Verfasser: Matthis Wieneke
 
-Zeitraum: 10/2021 - 04/2022
+Sprache: Deutsch
+
+Bearbeitungszeitraum: 10/2021 - 04/2022
+
+Abgabeinhalt: Thesis.pdf zzgl. Anhang.zip
