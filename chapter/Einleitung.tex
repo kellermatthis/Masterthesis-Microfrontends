@@ -1,0 +1,31 @@
+%!TEX root = ../Thesis.tex
+\section{Einleitung}\label{ch:Einleitung}
+
+In der nachfolgenden Masterthesis zum Thema \textit{\dokumententitel} wird das Konzept einer Microfrontend-Architektur anhand einer Portalshell und mehreren eingebundenen Microfrontends erklärt.
+
+\subsection{Motivation}\label{sec:Aufgabenstellung}
+
+Microservices sind seit vielen Jahren in der Softwareentwicklung etabliert. Mittlerweile sind zwei Drittel der repräsentativen Unternehmen auf dem Weg, ihre Software basierend auf Microservice-Technologien zu cloud-native Lösungen umzubauen.\footnote{\cite[vgl.][]{Lünendonk2021}}
+
+Ein vergleichbarer Trend ist im Bereich von Frontends zu beobachten. In den vergangenen Jahren sind Microfrontends vermehrt auf dem Technologieradar erschienen.\footnote{\cite[vgl.][]{Thoughtworks2020}} Microfrontends bieten ebenso wie die Microservices viel Potential, sind aber noch weniger verbreitet. Durch Microfrontend-Architekturen können komplexe Webapplikationen realisiert werden, welche zeitgleich skalierbar sowie flexibel sind und von autonomen, vertikalen Teams betreut werden. Welche Microfrontend-Architekturen für den jeweiligen Anwendungsfall in Frage kommen und welche Besonderheiten diese jeweils mit sich bringen ist aufgrund der großen Entscheidungsvielfalt nicht immer direkt ersichtlich.
+
+Zum aktuellen Zeitpunkt planen 73\% der Firmen alle ihre Softwaresysteme auf \gls{SaaS}-Lösungen umzustellen.\footnote{\cite[vgl.][]{Alves2021}} Unternehmen, welche im \gls{B2B} Geschäftsfeld tätig sind, können von diesem Trend profitieren und umfangreiche, aber zeitgleich auf den individuellen Anforderungen basierende Softwarelösungen für ganze Branchen anbieten.\newline
+Dafür würde beispielsweise die Erstellung einer mandantenfähigen Portalapplikation in Frage kommen, in welcher \gls{B2B}-Kunden ihre benötigten Tools in Form von Microfrontends individuell buchen, konfigurieren und nutzen können.
+
+\subsection{Zielsetzung}\label{sec:Zielsetzung}
+
+Ziel dieser \dokumententyp{} ist es, eine Entscheidungsgrundlage für Portalapplikationen zu schaffen, anhand derer die optimale Art der Einbindung für Microfrontends gefunden werden kann. 
+Die Entscheidungsfindung muss aufgrund der verschiedenen Handlungsoptionen fundiert durchgeführt werden, damit die Ergebnisse anwendbar sind. 
+Jedes Microfrontend soll optimal in die Portalapplikation integriert sein, auf Basis der individuellen Anforderungen der Portalapplikation, des Nutzers und des jeweiligen Microfrontends.
+
+\subsection{Vorgehensweise}\label{sec:Vorgehensweise}
+
+Um das Ziel zu erreichen gliedert sich die \dokumententyp{} in sechs Kapitel. Nach der Einleitung in \cref{ch:Einleitung}, welche Motivation, Zielsetzung und die Vorgehensweise beschreibt, werden in \cref{sec:Grundlagen} die Grundlagen für die Arbeit gelegt. Die Grundlagen gehen auf Microservices, Microfrontends und Portalapplikationen ein, welche den fachlichen Rahmen der Arbeit ausmachen.
+
+Anschließend wird in \cref{sec:PrototypischesBeispiel} das prototypische Beispiel skizziert, anhand dessen in \cref{sec:Evaluierung} die Evaluierung durchgeführt wird. Die Evaluierung beinhaltet zunächst die Erläuterung der theoretischen Grundlagen einer Nutzwertanalyse, welche dann anschließend in den \crefrange{sec:KriterienArtenEinbindung}{sec:VergleichDerArten} anhand des prototypischen Beispieles durchgeführt wird. 
+
+Im letzten Abschnitt des vierten Kapitels (\ref{sec:OptimaleAnwendungsszenarien}) wird das Ergebnis der Nutzwertanalyse interpretiert und aufbereitet. In diesem Abschnitt wird ein Prozess definiert, welcher einen Leitfaden bei der Entscheidungsfindung zur Einbindung von Microfrontends in eine Portalshell bilden soll.
+
+Das vorletzte Kapitel beinhaltet die prototypische Implementierung anhand der vorherigen Erkenntnisse. Dort soll der entwickelte Prozess für einige exemplarische Microfrontends angewendet werden. Anschließend werden die Ergebnisse bewertet.
+
+Das letzte Kapitel enthält eine Schlussbetrachtung über die vorangegangene \dokumententyp{}. Im Zuge dieser wird die Erfüllung der festgelegten Zielsetzung überprüft und eine Wertung vollzogen. Anschließend wird ein Ausblick gegeben, welche weiteren Aspekte rund um das ausgewählte Thema ebenfalls untersucht werden könnten.

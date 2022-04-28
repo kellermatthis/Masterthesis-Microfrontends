@@ -1,0 +1,22 @@
+%!TEX root = ../Thesis.tex
+\section{Schlussbetrachtung}\label{sec:Schlussbetrachtung}
+
+In diesem Kapitel wird eine Schlussbetrachtung zu der erstellten \dokumententyp{} durchgeführt. Dafür wird im nachfolgenden Abschnitt ein Fazit über die Erkenntnisse erstellt und im darauffolgenden \cref{sec:Ausblick} potentielle weitere Themen erläutert, welche noch weiterführend betrachtet werden könnten.
+
+\subsection{Zusammenfassung}\label{sec:Fazit}
+
+Ziel der Arbeit war es, eine differenzierte Entscheidungshilfe zu erstellen, anhand derer die optimale Art der Einbindung von Microfrontends in eine Portalshell ermittelt werden kann.
+
+Es wurde die Erkenntnis gesammelt, dass Web Components den größten Nutzwert im Vergleich der Einbindungsarten untereinander erreichen. Allerdings schneiden Web Components in einigen Kriterien schlechter ab, als andere Arten der Einbindung. Jede der vier Einbindungsarten konnte bei mindestens fünf Kriterien den höchsten Teilnutzwert erreichen. Dies zeigt, dass eine Einzelfallbetrachtung basierend auf den individuellen Anforderungen jedes Microfrontends durchgeführt werden muss, um die optimale Art der Einbindung in eine Portalshell bestimmen zu können. Dafür wurde eine Entscheidungshilfe in Form eines Entscheidungsbaumes im letzten \cref{sec:OptimaleAnwendungsszenarien} der Nutzwertanalyse erstellt. 
+
+Durch den in \cref{sec:PrototypischesBeispiel} beschriebenen Prototypen wurden die Erkenntnisse der Nutzwertanalyse auf die zutreffenden individuellen Ansprüche des Prototypen und dessen Microfrontends angepasst. Im vorletzten \cref{sec:Implementierung} \textit{Prototypische Implementierung} wurde das Ergebnis der Nutzwertanalyse und der daraus entstandene Entscheidungsbaum angewendet und überprüft. Es stellte sich heraus, dass die prototypische Portalshell von den Erkenntnissen profitieren konnte und die verschiedenen Arten der Einbindung ihre Vorteile an den Microfrontends anwenden konnten.
+
+\subsection{Ausblick}\label{sec:Ausblick}
+
+Die Frontend-Entwicklung sowie die Softwarearchitektur sind umfangreiche Themengebiete. Es gibt noch weitere Optionen, welche tiefer untersucht und eingebracht werden könnten.
+
+Zu diesen Themen zählt beispielsweise die Ermittlung von optimalen Hostingszenarien für Microfrontends. Es könnte On-Premise Hosting mit dem Hosting bei Cloud Service Providern verglichen werden. Ein weiterer möglicher Blickwinkel wäre der Vergleich verschiedener Cloud Hosting Optionen untereinander. So könnten im Kubernetes-Cluster gehostete Microfrontends gegenüber Microfrontends gehostet in einer \gls{VM} gegenüber Hosting in einer \textit{\gls{PaaS}}-Lösung eines Cloud-Anbieters zu diversen Kriterien (bspw. Kosten, Ausfallsicherheit, Unabhängigkeit und Skalierbarkeit) verglichen werden.
+
+Ebenfalls könnte das Konzept eines Design Systems näher untersucht werden. Ein einheitliches Design in verteilten, autonomen Teams durchzusetzen, ist nicht trivial, kann aber viele Vorteile für die Entwickler sowie die Benutzer der Applikation bringen. Michael Geers gibt im zwölften Kapitel seines Buches \textit{Micro Frontends in Action} Denkanstöße und Sichtweisen, welche Potential für eine wissenschaftliche Aufarbeitung bieten.\footnote{\cite[vgl.][213]{Geers2020}}
+
+Das Konzept einer Portalshell wurde im Rahmen der \dokumententyp{} nur prototypisch beschrieben und umgesetzt. Eine mandantenfähige Portalshell basierend auf einer dynamischen Microfrontend-Architektur hat das Potential die Softwarelösungen für eine ganze Branche abzubilden. Dafür müssten allerdings aufwändige Prozesse entwickelt und umgesetzt werden. Dies würde von dynamischer Instanziierung der Microfrontends je Mandant mit automatisiertem Deployment bis hin zu der Erstellung eines zentralen Monitoring- sowie Abrechnungskonzeptes reichen.

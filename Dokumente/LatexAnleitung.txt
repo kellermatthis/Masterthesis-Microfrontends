@@ -1,0 +1,16 @@
+Alt + Shift + F1 zum Builden und Anzeigen = Eigener Befehl.
+
+Zum Einrichten:
+TexStudio > Optionen > TexStudio konfigurieren
+Tab "Erzeugen" > Benutzerbefehle hinzufügen.
+
+Name FullBuild, dann Schraubenschlüssel und LatexMk und interner pdf Betrachter wählen
+txs:///latexmk | txs:///view-pdf-internal
+
+Ggf. muss noch im Root (C://) ein Dokument im LatexMk Ordner liegen, damit das Glossar richtig gerendert wird.
+C:/latexmk/latexmk Datei mit folgendem Inhalt:
+add_cus_dep('glo', 'gls', 0, 'makeglo2gls');
+add_cus_dep('acn', 'acr', 0, 'makeglo2gls');
+sub makeglo2gls {
+        system("makeglossaries $_[0]");
+}

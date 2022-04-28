@@ -1,0 +1,1 @@
+LatexMk-Build: Alt + Shift + F1
