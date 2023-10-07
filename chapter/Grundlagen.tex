@@ -185,7 +185,7 @@ Damit die Vorteile von Microfrontends genutzt werden können, sollten die Anford
 
 Die vier Prinzipien lauten: \textit{business domain representation}, \textit{autonomous codebase}, \textit{independent deployment} und \textit{single-team ownership}. Ein Microfrontend repräsentiert dementsprechend eine Geschäftsdomäne, welche autonom entwickelt sowie unabhängig veröffentlicht werden kann und von einem eigenen Team betreut wird.\footnote{\cite[vgl.][23]{Mezzalira2021}}
 
-Nachfolgend wird das sogenannte \textit{Microfrontend Descision Framework} vorgestellt. Es beschreibt Kriterien, anhand welcher passende Architekturentscheidungen für die Anwendung getroffen werden können und beinhaltet vier Kernaspekte:\footnote{\cite[vgl.][24]{Mezzalira2021}}
+Nachfolgend wird das sogenannte \textit{Microfrontend Decision Framework} vorgestellt. Es beschreibt Kriterien, anhand welcher passende Architekturentscheidungen für die Anwendung getroffen werden können und beinhaltet vier Kernaspekte:\footnote{\cite[vgl.][24]{Mezzalira2021}}
 
 \begin{compactitem}
 	\item Einheitliche Definitionen in der eigenen Architektur
@@ -289,7 +289,7 @@ In der nachfolgenden \cref{tab:ZusammenfassunfMFFramework} ist eine Zusammenfass
 
 Die Tabelle zeigt, dass nicht alle Ausprägungen einer Kategorie miteinander kombinierbar sind. Die erste Entscheidung muss bezüglich der Definition getroffen werden. Eine vertikale Definition hat zur Folge, dass beim Routing und bei der Kommunikation weniger Optionen verfügbar sind.
 
-Die Vorteile und Nachteile lassen sich aus den eingangs erklärten Prinzipen von Microfrontends ableiten und werden zur Übersicht nachfolgend noch einmal erklärt.
+Die Vorteile und Nachteile lassen sich aus den eingangs erklärten Prinzipien von Microfrontends ableiten und werden zur Übersicht nachfolgend noch einmal erklärt.
 
 \textbf{Vorteile gegenüber einem monolithischen Frontend}\\
 Der primäre Vorteil einer Microfrontend-Architektur ist die gewonnene Flexibilität. Jedes Team ist selbstverantwortlich für ihr zugewiesenes Microfrontend. Sie sind in der Lage selbstständig Architekturentscheidungen zu treffen, welche zu ihren Aufgaben und Problemen passen. Ebenfalls können bei Bedarf neue Softwarestände durch die eigenen Pipelines veröffentlicht werden, ohne andere Microfrontends zu beeinflussen. 
@@ -361,7 +361,7 @@ Ebenfalls besteht die Möglichkeit die Teams vertikal aufzuteilen, wodurch jedes
 Werden die Stakeholder auch noch in das Full-Stack-Team integriert, so kann von einem vollständig autonomen Team gesprochen werden. Wenn die Stakeholder, wie bspw. Marketing, Kunden oder Support, direkt in den Problemlösungsprozess integriert werden, kann von noch kreativeren Blickwinkeln profitiert und die \gls{TTM} noch weiter reduziert werden.\footnote{\cite[vgl.][242]{Geers2020}}
 
 \textbf{Wissensverteilung}\\
-Das Wissen übergreifend über autonome Teams hinweg zu verteilen geschieht nicht automatisch, ist aber dennoch ein wichtiger Prozess. Die Mitglieder von vertikalen Teams treffen sich in sogenannten \gls{COP}, welche horizontal organisierten Expertenkreisen entsprechen. So können Best Practises und Erfahrungen der Teams in den notwendigen technischen Tiefen der jeweiligen Spezialisierungen ausgetauscht werden. In Anhang \ref{app:Bilder} in \cref{fig:VertikaleTeamsWissensaustausch} sind drei autonome Teams dargestellt, welche sich regelmäßig in Expertenkreisen treffen und austauschen. So gibt es beispielsweise einen Expertenkreis für das Themengebiet Frontend, einen für die Datenanalyse und einen für Kubernetes als Infrastrukturplattform.
+Das Wissen übergreifend über autonome Teams hinweg zu verteilen geschieht nicht automatisch, ist aber dennoch ein wichtiger Prozess. Die Mitglieder von vertikalen Teams treffen sich in sogenannten \gls{COP}, welche horizontal organisierten Expertenkreisen entsprechen. So können Best Practices und Erfahrungen der Teams in den notwendigen technischen Tiefen der jeweiligen Spezialisierungen ausgetauscht werden. In Anhang \ref{app:Bilder} in \cref{fig:VertikaleTeamsWissensaustausch} sind drei autonome Teams dargestellt, welche sich regelmäßig in Expertenkreisen treffen und austauschen. So gibt es beispielsweise einen Expertenkreis für das Themengebiet Frontend, einen für die Datenanalyse und einen für Kubernetes als Infrastrukturplattform.
 
 Das Konzept der \gls{COP}s besteht schon länger, als die Microfrontend-Architektur. Doch es ist bei dieser Art der Teamorganisation besonders wichtig, da der sonst bestehende natürliche Austausch innerhalb eines horizontalen Teams verloren geht. In den \gls{COP}s sollte sich auch auf Standards und Konventionen für Schnittstellen und Namespaces innerhalb eines Projektes geeignet werden.
 
@@ -460,7 +460,7 @@ Mandantenfähige Portalshells mit einer Nutzerverwaltung sowie einem Rechte- und
 
 Im \cref{sec:MicrofrontendArchitektur} wurde die übergreifende Architektur von Microfrontends erläutert. Im vorherigen \cref{sec:Portalapplikationen} anschließend dann die Portalapplikationen, als gruppierendes Konzept von Microfrontends, erläutert. In diesem Abschnitt werden nun Microfrontends einzeln erläutert. Es werden verschiedenen Techniken vorgestellt, durch welche Microfrontends zusammengesetzt und eingebunden werden können.
 
-In den beiden nachfolgenden \crefrange{sec:ServerSideComposition}{sec:ClientSideComposition} werden die Konzepte von \textit{Server-side} und \textit{Client-side Composition} vorgestellt, welche bereits vorher in \cref{sec:MicrofrontendArchitekturTechnisch} beim Microfrontend Descision Framework angeschnitten wurden.
+In den beiden nachfolgenden \crefrange{sec:ServerSideComposition}{sec:ClientSideComposition} werden die Konzepte von \textit{Server-side} und \textit{Client-side Composition} vorgestellt, welche bereits vorher in \cref{sec:MicrofrontendArchitekturTechnisch} beim Microfrontend Decision Framework angeschnitten wurden.
 
 Danach werden in den \crefrange{sec:IFrame}{sec:ModuleFederation} verschiedene Arten der Einbindung eines Microfrontends in die Portalshell durch \textit{Client-side Composition} erläutert.
 
@@ -526,7 +526,7 @@ Ebenfalls kann über den \texttt{style}-Parameter eigener \gls{CSS} Code auf das
 
 Ein Iframe kann, wenn es in eine andere Anwendung eingebunden wird, diese nicht durch Styles beeinflussen. Die Kapselung der UI ist dementsprechend hoch gegenüber anderen Microfrontends.
 
-Das Iframe eignet sich als schnelle Art der Einbindung mit hoher Kapselung des Inhalts gegen andere Microfrontends. Iframes haben eine schlechte Performance, wenn viele von ihnen eingebunden werden. Jedes Iframe erstellt einen neuen Browserkontext, welcher Rechen- und Speicherintensiv ist. Ebenfalls sind Iframes für Screenreader und Suchmachinen nicht gut zu erreichen, was in geringer Suchmaschinenoptimierung und geringer Barrierefreiheit resultiert.\footnote{\cite[vgl.][35]{Geers2020}}
+Das Iframe eignet sich als schnelle Art der Einbindung mit hoher Kapselung des Inhalts gegen andere Microfrontends. Iframes haben eine schlechte Performance, wenn viele von ihnen eingebunden werden. Jedes Iframe erstellt einen neuen Browserkontext, welcher Rechen- und Speicherintensiv ist. Ebenfalls sind Iframes für Screenreader und Suchmaschinen nicht gut zu erreichen, was in geringer Suchmaschinenoptimierung und geringer Barrierefreiheit resultiert.\footnote{\cite[vgl.][35]{Geers2020}}
 
 \subsubsection{Web Components}\label{sec:Webcomponents}
 
@@ -541,7 +541,7 @@ Für wiederverwendbaren \gls{HTML} Code werden \textit{\gls{HTML} Templates} ver
 
 Durch \textit{Custom Elements} wird ermöglicht, dass neben den vordefinierten \gls{HTML} Tags noch weitere, individuelle \gls{HTML} Tags der Webseite hinzugefügt werden können. Der Inhalt eines Templates kann zu einem \textit{Custom Element} Tag hinzugewiesen werden. Die dahinterliegende \textit{Custom Elements} API rendert aus dem individuellen \gls{HTML} Tag dann anschließend den definierten Inhalt.\footnote{\cite[vgl.][]{Rauber2021}}
 
-Web Components sind ein anerkannter Webstandard, der direkt mit der Browser \gls{API} interagieren kann. Die starke Isolation des Inhaltes bei Bedarf sorgt für eine robuste Einbindung.\footnote{\cite[vgl.][96\psq]{Geers2020}} Dafür benötigen Web Componentens auch \gls{JS} clientseitig und unterstützen kein serverseitiges Rendering. Dies ist zwar über Umwege realisierbar, aber nicht der vorgesehene Standard, was bei Anforderungen an geringe initiale Ladezeiten von Nachteil ist.\footnote{\cite[vgl.][97\psq]{Geers2020}}
+Web Components sind ein anerkannter Webstandard, der direkt mit der Browser \gls{API} interagieren kann. Die starke Isolation des Inhaltes bei Bedarf sorgt für eine robuste Einbindung.\footnote{\cite[vgl.][96\psq]{Geers2020}} Dafür benötigen Web Components auch \gls{JS} clientseitig und unterstützen kein serverseitiges Rendering. Dies ist zwar über Umwege realisierbar, aber nicht der vorgesehene Standard, was bei Anforderungen an geringe initiale Ladezeiten von Nachteil ist.\footnote{\cite[vgl.][97\psq]{Geers2020}}
 
 \subsubsection{Webpack Module Federation}\label{sec:ModuleFederation}
 
