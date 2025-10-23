@@ -8,7 +8,7 @@ Hochschule: Fachhochschule der Wirtschaft (FHDW)
 
 Verfasser: Matthis Wieneke
 
-Prüfer: Prof. Dr. Jan Stehr & Matthis Füller
+Prüfer: Prof. Dr. Jan Stehr & Matthias Füller
 
 Sprache: Deutsch
 
